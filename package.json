@@ -1,0 +1,41 @@
+{
+  "name": "termimg",
+  "version": "1.0.0",
+  "description": "Display images in any terminal — ASCII art, ANSI color, or sixel graphics",
+  "type": "module",
+  "bin": {
+    "termimg": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "terminal",
+    "image",
+    "ascii",
+    "sixel",
+    "display",
+    "console",
+    "picture",
+    "img2txt",
+    "catimg"
+  ],
+  "author": "arc2898",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "jimp": "^1.6.0",
+    "ora": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
