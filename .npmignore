@@ -5,3 +5,5 @@ tsconfig.json
 .gitignore
 .github/
 *.test.ts
+.npm-token
+.npmrc

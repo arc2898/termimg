@@ -1,5 +1,5 @@
 {
-  "name": "termimg",
+  "name": "@arc2898/termimg",
   "version": "1.0.0",
   "description": "Display images in any terminal — ASCII art, ANSI color, or sixel graphics",
   "type": "module",

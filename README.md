@@ -1,4 +1,4 @@
-# termimg
+# @arc2898/termimg
 
 > Display images in any terminal — ASCII art, ANSI color, or sixel graphics
 
@@ -16,7 +16,7 @@
 ## Installation
 
 ```bash
-npm install -g termimg
+npm install -g @arc2898/termimg
 ```
 
 ## Usage
